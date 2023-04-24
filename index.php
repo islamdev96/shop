@@ -10,13 +10,14 @@ include "connection.php";
 <body>
 
 <form name="form1" action="" method="post" enctype="multipart/form-data">
-    <h6>Add Photo</h6>
-    <input type="file" name="f1" required="" />
     <h6>Add Name</h6>
     <input type="text" placeholder="name" name="name" autocomplete="off" >
     <h6>Add Link</h6>
     <input type="text" placeholder="link" name="link" autocomplete="off" >
     <br>
+    <h6>Add Photo</h6>
+    <input type="file" name="f1" required="" />
+
     <input type="submit" name="sumbit1" value="Add"    >
     <!--Database -->
     <?php
